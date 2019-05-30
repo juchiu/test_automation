@@ -9,7 +9,7 @@ LOGIN_BTN = (By.CSS_SELECTOR, 'input.btn.btn-submit')
 
 
 
-usernameStr = ['test@test.test']
+usernameStr = ['super@fountain.com']
 passwordStr = ['testtest']
 
 @Given('Open login page')
