@@ -9,8 +9,8 @@ LOGIN_BTN = (By.CSS_SELECTOR, 'input.btn.btn-submit')
 
 
 
-usernameStr = ['engineering@onboardiq.dev']
-passwordStr = ['martiansworkingiq']
+usernameStr = ['test@test.test']
+passwordStr = ['testtest']
 
 @Given('Open login page')
 def open_page(context):
