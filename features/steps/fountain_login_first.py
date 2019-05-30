@@ -10,7 +10,7 @@ LOGIN_BTN = (By.CSS_SELECTOR, 'input.btn.btn-submit')
 
 
 usernameStr = ['super@fountain.com']
-passwordStr = ['testtest']
+passwordStr = ['XXXXX']
 
 @Given('Open login page')
 def open_page(context):
