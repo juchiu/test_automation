@@ -12,8 +12,8 @@ TROUBLE_SIGN_IN_LINK = (By.XPATH, "//a[contains(@href,'trouble_sign_in')]")
 #     print(email)
 #     return [usernameStr[0], usernameStr[1], usernameStr[2].format.(email)]
 #
-usernameStr = ['engineering@onboardiq.dev']
-passwordStr = ['martiansworkingiq']
+usernameStr = ['YYYYY']
+passwordStr = ['XXXXXX']
 # for x in range(4):
 # # driver.find_element(*USER_EMAIL).send_keys(usernameStr.format(x))
 
