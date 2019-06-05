@@ -1,4 +1,4 @@
- Created by margarita at 2019-05-23
+# Created by margarita at 2019-05-23
 Feature: Opening's dashboard
    Enter feature description here
 Background:

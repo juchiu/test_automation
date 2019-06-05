@@ -1,0 +1,5 @@
+---
+credentials:
+  super_user:
+    email: a@b.com
+    password: abc

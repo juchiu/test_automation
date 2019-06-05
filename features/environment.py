@@ -6,12 +6,20 @@ def browser_init(context):
     :param context: Behave context
     :param url: root url of the pages
     """
-    context.driver = webdriver.Chrome('drivers/chromedriver')
+    options = webdriver.ChromeOptions()
+    options.binary_location = "/usr/bin/chromium-browser"
+    options.add_argument("--window-size=1280,720")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--proxy-server='direct://'")
+    options.add_argument("--proxy-bypass-list=*")
+    #options.add_argument("headless")
+    #context.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=options)
+    context.driver = webdriver.Chrome(chrome_options=options)
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
 
     # context.driver.maximize_window()
-    context.driver.implicitly_wait(4)
+    context.driver.implicitly_wait(10)
 
 
 def before_scenario(context, scenario):
