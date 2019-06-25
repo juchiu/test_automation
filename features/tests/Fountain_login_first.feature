@@ -2,9 +2,8 @@
 Feature:  login page, multiple tests
 
 
-      Scenario: Login
-       Given   Open login page
-       When    Input usernameStr
-       Then    Input passwordStr
-       When    Click LOG IN button
-#       Then    Close browser
+  Scenario: Login
+    Given   Open login page
+    When    Input usernameStr
+    Then    Input passwordStr
+    When    Click LOG IN button

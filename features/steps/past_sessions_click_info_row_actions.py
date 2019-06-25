@@ -34,6 +34,7 @@ def close_manage_applicant_modal(context):
     context.driver.implicitly_wait(3)
     context.driver.find_element_by_css_selector('body > div.obiq-modal.obiq-modal_size_big > div > div > button').click()
     sleep(2)
+
 @Then('Click info row actions and close')
 def edit_a(context):
         # context.driver.find_elements_by_css_selector('div.scheduled-session__info-row-actions')

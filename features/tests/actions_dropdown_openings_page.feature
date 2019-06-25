@@ -8,6 +8,6 @@ Background:
        When    Click LOG IN button
 
   Scenario: Opening's dashboard
-    Then Click applicants in process link
-    Then Click first applicant
-    Then Click_actionsSample text for typing scenarioSample text for typing scenarioSample txt for typing scenario
+    Then Click actions dropdown
+    Then options
+   Then click_actions
