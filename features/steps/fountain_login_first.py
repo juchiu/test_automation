@@ -8,8 +8,8 @@ PASSWORD = (By.ID, 'user_password')
 LOGIN_BTN = (By.CSS_SELECTOR, 'input.btn.btn-submit')
 
 
-usernameStr = ['engineering@onboardiq.dev']
-passwordStr = ['martiansworkingiq']
+usernameStr = ['XXX@XXX.dev']
+passwordStr = ['XXXXX']
 
 @Given('Open login page')
 def open_page(context):
